@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class SortingAlgorithms {
+public class TareaCorta {
     // Selection Sort
     public static void selectionSort(int[] arr) {
         int n = arr.length;
@@ -163,7 +163,7 @@ public class SortingAlgorithms {
             Random random = new Random();
 
             for (int i = 0; i < size; i++) {
-                arr[i] = random.nextInt();
+                arr[i] = random.nextInt(Integer.MAX_VALUE);
             }
 
             int[] copyArr;
